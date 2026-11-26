@@ -5,7 +5,7 @@ export interface InteractiveItem {
     active: boolean
 }
 
-export interface TecnologyItem {
+export interface TechnologyItem {
     id: number,
     name: string,
     category: string
