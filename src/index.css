@@ -1,12 +1,12 @@
 @import "tailwindcss";
 
 :root {
-  font-family: "Courier New", Courier, monospace;
+  font-family: Arial, Helvetica, sans-serif;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: #080b14;
+  background: #eee8dc;
 }
 
 body {
