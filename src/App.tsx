@@ -1,6 +1,7 @@
 import { StateEffectPanel } from './components/level1/StateEffectPanel'
 import { ChameleonButton } from './components/level2/ChameleonButton'
 import { InteractiveSquare } from './components/level2/InteractiveSqueare'
+import { InteractiveClickList } from './components/level3/InteractiveClickList'
 
 function App() {
   return (
@@ -56,6 +57,9 @@ function App() {
           </div>
           <ChameleonButton />
           <InteractiveSquare />
+          <div className="md:col-span-2">
+            <InteractiveClickList />
+          </div>
         </div>
 
         <footer className="mt-10 flex flex-wrap items-center justify-between gap-3 border-t-[3px] border-[#202b34] pt-4 text-[10px] font-bold tracking-[0.12em] text-[#53666c]">

@@ -4,7 +4,7 @@ export const INITIAL_ITEMS_CLICK: InteractiveItem[] = [
     {
         id: 1,
         initialText: "Revisar Pull Request",
-        activeText: "PR Aprovado",
+        activeText: "PR Aprobado",
         active: false
     },
     {
